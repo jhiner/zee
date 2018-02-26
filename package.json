@@ -1,0 +1,52 @@
+{
+  "name": "zee",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "ava",
+    "reset": "node reset.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.15.1",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^1.4.0",
+    "cookie-parser": "~1.4.3",
+    "csurf": "^1.9.0",
+    "debug": "~2.2.0",
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.7",
+    "express": "~4.13.4",
+    "express-rate-limit": "^2.11.0",
+    "express-session": "^1.15.6",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.2",
+    "morgan": "~1.7.0",
+    "oauth2orize": "^1.11.0",
+    "oauth2orize-openid": "^0.4.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-client-password": "^0.1.2",
+    "randomstring": "^1.1.5",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.3.0",
+    "uuid": "^3.2.1",
+    "winston": "^2.4.0",
+    "x509": "^0.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0"
+  },
+  "now": {
+    "alias": "zee",
+    "dotenv": true
+  }
+}
