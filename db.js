@@ -5,7 +5,7 @@ let _db;
 module.exports.connect = function(callback) {
 
     if (_db) {
-        console.log('rturn');
+        console.log('return');
         return callback(err, _db);
     }
 

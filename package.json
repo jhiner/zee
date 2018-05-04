@@ -48,5 +48,8 @@
   "now": {
     "alias": "zee",
     "dotenv": true
+  },
+  "engines": {
+    "node": ">=8.9.1"
   }
 }
