@@ -13,7 +13,7 @@ const testData = require('../_testData');
 // });
 
 test('Create and read grant', t => {
-  t.true(1===1);
+  t.true(2===2);
     // grants.upsert(testData.client, testData.user, 'userinfo', function(err, grant) {
     //     t.true(grant.client_id === testData.client.client_id, 'Client id matches');
 
